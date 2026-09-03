@@ -1,0 +1,27 @@
+body {
+    background-color:rgb(41, 4, 106);
+    font-size:20px;
+    color:rgb(255, 255, 255);
+}
+
+p {
+    background-color:rgb(182, 141, 255);
+    color:rgb(41, 4, 106);
+    /*the border shorthand property expects 3 values for the border-width, border-style, and border-color*/
+    border:20px dashed;
+    /* internal spacing w/ elements */
+    padding:40px;
+    /* external spacing around elements */
+    margin:50px;
+
+}
+
+.banner {
+    background-color:darkgoldenrod;
+    text-align:center;
+}
+
+img {
+    max-width:100%
+}
+

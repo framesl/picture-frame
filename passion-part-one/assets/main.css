@@ -1,0 +1,138 @@
+/* the type chosen for the entire webpage */
+.type {
+    text-align: center;
+    font-family: Garamond, monospace;
+}
+/* in order to keep all of the images within the page, even when shrunk */
+img  {
+    max-width:100%;
+}
+/* the background image for the 'go for a big walk' section */
+.backgroundimage {
+    background-image: url('gifs/bigwalk-hh-gif.gif');
+    background-position: center;
+    color:white;
+    padding: 40px;
+}
+/* how the big walk logo at the top is centered w/ a border */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 15px dotted;
+    border-color: #a21b1b #edca1d #126dbd #37ae37;
+    padding: 20px;
+}
+/* the gifs in a row that explain wha else can be done in the game */
+.gifsrow {
+    display: flex;
+    gap: 15px;
+}
+
+.gifsrow p {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    padding:150px;
+    color:white;
+    text-align:center;
+}
+
+.canchat {
+    background-image: url('gifs/bigwalk-canchat.gif');
+    max-width: 100%;
+}
+
+.explore {
+    background-image: url('gifs/bigwalk-jamout.gif');
+    max-width: 100%;
+}
+
+.getlost {
+    background-image: url('gifs/bigwalk-getlost.gif');
+    max-width: 100%;
+}
+
+.throwthings {
+    background-image: url('gifs/bigwalk-throwthings.gif');
+    max-width: 100%;
+}
+
+/* the images for the moments between friends */
+.imagegrid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color:#a21b1b;
+    padding: 10px;
+    place-items: center;
+    border: 15px dotted;
+    border-color: #edca1d #126dbd #37ae37;
+    background-clip: padding-box; 
+}
+/* the images for the photos by my friend */
+.imagegridsmall {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color:#37ae37;
+    padding: 10px;
+    place-items: center;
+    border: 15px dotted;
+    border-color:#a21b1b #edca1d #126dbd;
+    background-clip: padding-box; 
+}
+/* the images for the corpse collection */
+.imagegridsmaller {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color:#edca1d;
+    padding: 10px;
+    place-items: center;
+    border: 15px dotted;
+    border-color: #a21b1b #126dbd #37ae37;
+    background-clip: padding-box; 
+}
+/* the images for the rave incident */
+.imagegridsmallest {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color:#126dbd;
+    padding: 10px;
+    place-items: center;
+    border: 15px dotted;
+    border-color:#a21b1b #edca1d #37ae37;
+    background-clip: padding-box; 
+}
+/* the button for the orb */
+.orbstyle {
+    background-color: black;
+    color:white;
+    border: 10px dotted;
+    border-color:black;
+    padding: 10px;
+    font-size: 30px;
+    font-family: monospace;
+    background-clip: padding-box; 
+}
+/* general tweaks for certain parts of the page */
+body {
+    background-color:#faf4d2;
+}
+p {
+    font-family: Garamond, monospace; 
+}
+
+summary {
+    font-family: Garamond, monospace;
+}
+
+h3 {
+    font-family: Garamond, monospace;
+    text-align:center;
+    border: 15px dotted;
+    border-color: #a21b1b #edca1d #126dbd #37ae37;
+    padding: 20px;
+}
