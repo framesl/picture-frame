@@ -1,0 +1,31 @@
+body {
+    background-color:rgb(41, 4, 106);
+    font-size:20px;
+    color:rgb(255, 255, 255);
+}
+li {
+    background-color:#b68dff;
+    color:#29046a;
+    border:10px dashed;
+    padding:40px;
+    margin:50px;
+}
+img  {
+    max-width:100%;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 15px dashed;
+    border-color: #29046a;
+    background-color: #b68dff;
+    padding: 20px;
+}
+p {
+    background-color:#b68dff;
+    color:#29046a;
+    border:10px dashed;
+    padding:40px;
+    margin:50px;    
+}
