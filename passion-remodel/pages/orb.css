@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    margin: 10px;
+    padding: 5px;
+}
+
+body {
+  background-image: url("../assets/bigwalk-orb-background.jpg");
+  background-color:#faf4d2;
+}

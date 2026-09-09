@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    margin: 10px;
+    padding: 5px;
+}
+
+body {
+  background-image: url("assets/bigwalk-background.jpg");
+  background-color:#faf4d2;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
