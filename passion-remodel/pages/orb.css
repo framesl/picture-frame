@@ -12,3 +12,26 @@ body {
   background-image: url("../assets/bigwalk-orb-background.jpg");
   background-color:#faf4d2;
 }
+
+.orbfar {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    width: 500px;
+    height: 400px;
+}
+
+.orbclose {
+    margin: 40px;
+    padding: 40px;
+    width: 600px;
+    height: 400px;
+}
+
+.orbinside {
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    margin: 20px;
+}

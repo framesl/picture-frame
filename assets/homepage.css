@@ -34,7 +34,7 @@ p {
 
 .framegrid {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     grid-gap: 10px;
     padding: 10px;
     place-items: center;
