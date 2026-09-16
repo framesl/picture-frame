@@ -11,7 +11,8 @@ img {
 body {
   background-image: url("assets/bigwalk-background.jpg");
   background-color:#faf4d2;
-
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .center {
@@ -40,6 +41,7 @@ body {
 div {
   scroll-snap-align: start;
   scroll-snap-stop: always;
+  text-align: center;
 }
 img {
   width: 50%;
