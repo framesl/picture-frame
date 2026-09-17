@@ -15,6 +15,13 @@ body {
   background-repeat: no-repeat;
 }
 
+.text {
+  text-align: center;
+  font-family: Garamond, monospace;
+  color:#ffffff;
+  padding: 10px;
+}
+
 .center {
     display: block;
     margin-left: auto;
