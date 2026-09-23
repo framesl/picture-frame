@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.box {
+  background: blueviolet;
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  /* values move clockwise based on order */
+  /* auto horizontal on a block element centers it on the page when placed in margin */
+  margin: 10px 0;
+}
+
+.relative {
+  background: #0202db;
+  position: relative;
+  /* you can't have a top/bottom together, same with right/left */
+  /* retains the space that the element once took up */
+  top: 50px;
+  left: 50px;
+}
+
+.fixed {
+  background: lightskyblue;
+  /* removed from the flow of elements, so it tries to exist close to where it once was before you tell it where to sit */
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+}
+
+.sticky {
+  background: #a20000;
+  position: sticky;
+  top: 0;
+}
+
+.absolute {
+  background: orangered;
+  /* removed from flow, but always going to be in location */
+  position: absolute;
+}
+
+.a1 {
+  top: 100px;
+  right: 100px;
+}
+
+.a2 {
+  top: 500px;
+  left: 300px;
+}
+
+.a3 {
+  bottom: 10px;
+  right: 200px;
+}
+
+.parent {
+  background:cyan;
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+
+.child {
+  background: yellow;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
+
+.smiley {
+  background-color:#c7ecee;
+  width: 200px;
+  height: 400px;
+  position: relative;
+}
+
+.eye {
+  background-color:#1637ca;
+  width: 50px;
+  height: 50px;
+  border: 10px solid white;
+  position: absolute;
+}
+
+.left {
+  top: 40px;
+  left: 40px;
+}
+
+.right {
+  top: 40px;
+  right: 40px;
+}
+
+.nose {
+  background-color: #b7d9dd;
+  width: 40px;
+  height: 100px;
+  position: absolute;
+  top: 150px;
+  left: 80px;
+}
+
+.mouth {
+  background-color: #b7d9dd;
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+  border-radius: 0 0 100% 100%;
+}
