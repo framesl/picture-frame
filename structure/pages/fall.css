@@ -14,3 +14,10 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+.absolute {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+}
+
