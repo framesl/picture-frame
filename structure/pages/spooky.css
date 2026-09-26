@@ -14,3 +14,15 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+div {
+  display: block;
+}
+
+.link {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 185px;
+  left: 1200px;
+}

@@ -14,3 +14,21 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+div {
+  display: block;
+}
+
+.cpspring {
+  position: absolute;
+  top: 485px;
+  left: 700px;
+}
+
+.link {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 30px;
+  left: 240px;
+}

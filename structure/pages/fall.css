@@ -19,11 +19,6 @@ div {
   display: block;
 }
 
-.absolute {
-  background: orangered;
-  position: absolute;
-}
-
 .cpleaf {
   position: absolute;
   top: 485px;
@@ -31,6 +26,8 @@ div {
 }
 
 .text {
+  position: absolute;
+  background: orangered;
   top: 90px;
   left: 900px;
   width: 400px;
