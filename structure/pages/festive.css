@@ -19,10 +19,16 @@ div {
   display: block;
 }
 
+.cpfestive {
+  position: absolute;
+  bottom: 214px;
+  right: 380px;
+}
+
 .link {
   position: absolute;
   width: 130px;
   height: 130px;
-  top: 300px;
-  left: 750px;
+  bottom: 350px;
+  left: 250px;
 }
