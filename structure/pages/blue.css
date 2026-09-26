@@ -14,3 +14,27 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+div {
+  display: block;
+}
+
+.cpblue {
+  position: absolute;
+  bottom: 485px;
+  left: 623px;
+}
+
+.cpchibi {
+  position: absolute;
+  top: 75px;
+  right: 400px;
+}
+
+.link {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  bottom: 425px;
+  right: 600px;
+}

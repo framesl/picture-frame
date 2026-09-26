@@ -14,3 +14,41 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+h1 {
+  color: white;
+  background-color: #1d2350;
+  position: absolute;
+  top: 70px;
+  left: 310px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 100px;
+  font-family: monospace;
+}
+
+h3 {
+  background-color: #1d2350;
+  position: absolute;
+  top: 500px;
+  left: 785px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 50px;
+  font-family: monospace;
+}
+
+h2 {
+  background-color: #1d2350;
+  position: absolute;
+  bottom: 300px;
+  left: 725px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 50px;
+  font-family: monospace;
+}
+
+a {
+  color: white;
+}
