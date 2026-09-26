@@ -8,9 +8,9 @@ img {
 
 body {
   background-image: url("assets/structure-homepage.jpg");
-  background-color:#03175b;
-  background-size: cover;
-  background-position: center center;
+  background-color:#1d2350;
+  background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }

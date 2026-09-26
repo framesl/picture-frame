@@ -8,9 +8,9 @@ img {
 
 body {
   background-image: url("../assets/structure-snowy.jpg");
-  background-color:#03175b;
-  background-size: cover;
-  background-position: center center;
+  background-color:#93d2e5;
+  background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
