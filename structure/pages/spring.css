@@ -21,8 +21,8 @@ div {
 
 .cpspring {
   position: absolute;
-  top: 485px;
-  left: 700px;
+  bottom: 50px;
+  left: 720px;
 }
 
 .link {
@@ -30,5 +30,5 @@ div {
   width: 150px;
   height: 150px;
   top: 30px;
-  left: 240px;
+  left: 270px;
 }
