@@ -7,16 +7,18 @@ img {
 }
 
 body {
-  background-image: url("../assets/structure-room.jpg");
   background-color:#1c2549;
+  margin: 0;
+}
+
+.container {
+  background-image: url("../assets/structure-room.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-
-div {
-  display: block;
+  display: flex;
+  height: 100vh;  
 }
 
 .cpblue {

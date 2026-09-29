@@ -7,16 +7,18 @@ img {
 }
 
 body {
-  background-image: url("../assets/structure-spring.jpg");
   background-color:#5ac9e9;
+  margin: 0;
+}
+
+.container {
+  background-image: url("../assets/structure-spring.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-div {
-  display: block;
+  background-attachment: fixed; 
+  display: flex;
+  height: 100vh; 
 }
 
 .cpspring {

@@ -7,12 +7,18 @@ img {
 }
 
 body {
-  background-image: url("assets/structure-homepage.jpg");
   background-color:#1d2350;
+  margin: 0;
+}
+
+.container {
+  background-image: url("assets/structure-homepage.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  display: flex;
+  height: 100vh;
 }
 
 h1 {

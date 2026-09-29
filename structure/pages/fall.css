@@ -7,16 +7,18 @@ img {
 }
 
 body {
-  background-image: url("../assets/structure-fall-background.jpg");
   background-color:#f6ee67;
+  margin: 0;
+}
+
+.container {
+  background-image: url("../assets/structure-fall-background.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-
-div {
-  display: block;
+  display: flex;
+  height: 100vh;
 }
 
 .cpleaf {
