@@ -19,6 +19,7 @@ body {
   background-attachment: fixed;
   display: flex;
   height: 100vh;
+  position: relative;
 }
 
 .cpleaf {
@@ -27,12 +28,14 @@ body {
   left: 628px;
 }
 
-.text {
+p {
   position: absolute;
-  background: orangered;
+  background: #e78c24;
   top: 90px;
   left: 900px;
   width: 400px;
+  padding: 10px;
+  margin: 10px;
 }
 
 .link {
