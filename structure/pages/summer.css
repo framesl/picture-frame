@@ -14,8 +14,8 @@ body {
 p {
   position: absolute;
   background: #25a2c4;
-  top: 90px;
-  left: 900px;
+  bottom: 300px;
+  left: 500px;
   width: 400px;
   padding: 10px;
   margin: 10px;

@@ -11,6 +11,28 @@ body {
   margin: 0;
 }
 
+.p1 {
+  position: absolute;
+  background: #a7dff4;
+  top: 50px;
+  right: 600px;
+  width: 400px;
+  padding: 10px;
+  margin: 10px;
+  font-family: monospace;
+}
+
+.p2 {
+  position: absolute;
+  background: #1e729c;
+  bottom: 500px;
+  left: 630px;
+  width: 400px;
+  padding: 10px;
+  margin: 10px;
+  font-family: monospace;
+}
+
 .container {
   background-image: url("../assets/structure-room.jpg");
   background-size: contain;
