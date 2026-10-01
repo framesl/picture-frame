@@ -11,6 +11,17 @@ body {
   margin: 0;
 }
 
+p {
+  position: absolute;
+  background: #25a2c4;
+  top: 90px;
+  left: 900px;
+  width: 400px;
+  padding: 10px;
+  margin: 10px;
+  font-family: monospace;
+}
+
 .container {
   background-image: url("../assets/structure-summer.jpg");
   background-size: contain;
