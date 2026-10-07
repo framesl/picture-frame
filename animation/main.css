@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+  margin: 0px;
+}
+
+.box {
+  background: palevioletred;
+  width: 100px;
+  height: 100px;
+  position: relative;
+
+  /* animation-name: test;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count:1;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-fill-mode: both; */
+
+/* With animation shorthand, first time value is always going to be the duration, second time value is always going to be the delay */
+  animation: test 5s 2s 1 ease-in-out alternate infinite;
+}
+
+@keyframes test {
+  0% {
+    background: darkgoldenrod;
+    top:0;
+  }
+  50% {
+    background: lightskyblue;
+  }
+  100% {
+    background: limegreen;
+    top:200px;
+  }
+}
+
+.container {
+  background: lightseagreen;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.circle {
+  background: pink;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  animation: pulse 2s alternate infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background: pink;
+    scale: 1;
+  }
+  100% {
+    background: palevioletred;
+    scale: 1.5;
+  }
+}
+
+.square {
+  background: pink;
+  width: 150px;
+  height: 150px;
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    rotate: 0;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}
