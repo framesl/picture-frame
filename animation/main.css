@@ -46,8 +46,10 @@ body {
   background: lightseagreen;
   height: 100vh;
   display: flex;
+  position: relative;
   justify-content: space-evenly;
   align-items: center;
+  overflow: hidden;
 }
 
 .circle {
@@ -69,6 +71,27 @@ body {
   }
 }
 
+.changer {
+  background: pink;
+  width: 150px;
+  height: 150px;
+  transition: 
+    background-color .5s ease-in-out,
+    border-radius 1s,
+    rotate 2s;
+}
+
+.changer:hover {
+  background: palevioletred;
+  border-radius:100%;
+  rotate: 180deg;
+}
+
+.changer:active {
+  background:gray;
+  scale:.5;
+}
+
 .square {
   background: pink;
   width: 150px;
@@ -82,5 +105,35 @@ body {
   }
   100% {
     rotate: 360deg;
+  }
+}
+
+.mover {
+  background: pink;
+  width: 150px;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  animation: 
+  move 4s infinite linear, 
+  grow 2s infinite alternate;
+}
+
+@keyframes move {
+  0% {
+    left:-150px;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes grow {
+  0% {
+    scale: 1;
+  }
+  100% {
+    scale: 2;
   }
 }
