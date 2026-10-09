@@ -10,6 +10,18 @@ body {
   margin: 0;
 }
 
+p {
+  color: orangered;
+  font-family: custom-font;
+  font-size: 55px;
+}
+
+a {
+  color: orangered;
+  font-family: custom-font;
+  font-size: 55px;  
+}
+
 .container {
   background: black;
   padding: 10px;
@@ -25,20 +37,28 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  overflow: hidden;
 }
 
 .top-item-one {
-  background: orangered;
+  /* background: orangered; */
   display: flex;
+  position: relative;
   height: 50%;
-  gap: 10px;
+  gap: 5px;
+  align-items: center;
+  animation: movel 7s infinite linear;
 }
 
 .top-item-two {
-  background: orangered;
+  /* background: orangered; */
   display: flex;
+  position: relative;
   height: 50%;
-  gap: 10px;
+  gap: 5px;
+  align-items: center;
+  justify-content: right;
+  animation: mover 5s infinite linear;
 }
 
 .middle {
@@ -47,20 +67,28 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  overflow: hidden;
 }
 
 .middle-item-one {
-  background: orangered;
+  /* background: orangered; */
   display: flex;
+  position: relative;
   height: 50%;
-  gap: 10px;
+  gap: 5px;
+  align-items: center;
+  animation: movel 9s infinite linear;
 }
 
 .middle-item-two {
-  background: orangered;
+  /* background: orangered; */
   display: flex;
+  position: relative;
   height: 50%;
-  gap: 10px;
+  gap: 5px;
+  align-items: center;
+  justify-content: right;
+  animation: mover 2s infinite linear;
 }
 
 .bottom {
@@ -69,18 +97,49 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  overflow: hidden;
 }
 
 .bottom-item-one {
-  background: orangered;
+  /* background: orangered; */
   display: flex;
+  position: relative;
   height: 50%;
-  gap: 10px;
+  gap: 5px;
+  align-items: center;
+  animation: movel 7s infinite linear;
 }
 
 .bottom-item-two {
-  background: orangered;
+  /* background: orangered; */
   display: flex;
+  position: relative;
   height: 50%;
-  gap: 10px;  
+  gap: 5px;  
+  align-items: center;
+  justify-content: right;
+  animation: mover 10s infinite linear;
+}
+
+@keyframes movel {
+  0% {
+    left: -500px;
+  }
+  100% {
+    left: 100%
+  }
+}
+
+@keyframes mover {
+  0% {
+    right: -500px;
+  }
+  100% {
+    right: 100%;
+  }
+}
+
+@font-face {
+  font-family: custom-font;
+  src: url(Dotmatrx\ copy.ttf);
 }
