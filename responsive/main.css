@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+  background: lightslategrey;
+  transition: background-color 1s;
+}
+
+.responsive {
+  background: seagreen;
+  padding: 20px;
+  margin-bottom: 10px;
+  max-width: 900px;
+  border: 0px solid mediumseagreen;
+
+  transition: all 1s;
+}
+
+/* min-width = mobile first, media queries get progressively larger */
+
+/* max-with = desktop first, media queries get progressively smaller */
+
+/* tablet styles */
+@media screen and (max-width: 1000px) {
+  body {
+    background: darkslategrey;
+  }
+
+  .responsive {
+    background: darkseagreen;
+    border:10px solid mediumseagreen;
+  }
+}
+
+/* phone styles */
+@media screen and (max-width: 600px) {
+  body {
+    background: seagreen;
+  }
+
+  .responsive {
+    font-size:150%;
+    padding:50px;
+  }
+}
