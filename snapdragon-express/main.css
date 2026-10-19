@@ -6,17 +6,31 @@ img {
     max-width: 100%;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
-  text-align: center;
   font-size: 100px;
   font-family: custom-font;
+  margin-top: 50px;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  height:100vh;
+  background-color: brown;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .button {
   background: red;
   color: white;
   padding: 10px 20px;
-  text-align: center;
   text-decoration: none;
   display: block;
   font-size: 50px;
@@ -24,7 +38,6 @@ h1 {
   margin: 0 auto;
   cursor: pointer;
   border-radius: 4px;
-  justify-content: center;
   max-width: 300px;
 }
 
