@@ -28,6 +28,13 @@ a {
     font-family: custom-font;
 }
 
+p {
+  font-size: 20px;
+  color: black;
+  font-family: custom-font;
+  padding: 15px;
+}
+
 div.container {
   /* background: blue; */
   max-width: 1100px;
@@ -38,7 +45,7 @@ div.container {
   gap: 15px;
 }
 
-.left, .right {
+.left, .right, .left-two, .right-two {
   border: 3px pink solid;
 }
 
@@ -52,7 +59,17 @@ div.container {
   background: red;
 }
 
-.bri, .deja, .sophie, .eli, .carter, .jordan {
+.left-two {
+  width: 70%;
+  background: red;
+}
+
+.right-two {
+  width: 30%;
+  background: yellow;
+}
+
+.bri, .deja, .sophie, .eli, .carter, .jordan, .radtke, .sandw {
   background:plum;
   max-width: 1100px;
   height: 300px;
