@@ -36,10 +36,9 @@ p {
 }
 
 .imgstats {
-  position:fixed;
-  height: 300px;
+  position:relative;
+  height: 400px;
   width: 500px;
-  left: 50%;
   display: none;
 }
 
