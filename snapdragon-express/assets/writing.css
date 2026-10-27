@@ -56,7 +56,7 @@ div.container {
 }
 
 .left, .right, .left-two, .right-two {
-  /* border: 3px pink solid; */
+  border: 1px #eda60c solid;
   display:flex;
 }
 
