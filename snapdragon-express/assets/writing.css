@@ -18,7 +18,7 @@ nav ul{
     padding: 20px;
     display: flex;
     justify-content: space-around;
-    background-color: purple;
+    background-color: #eda60c;
 }
 
 a {
@@ -30,7 +30,7 @@ a {
 
 p {
   font-size: 25px;
-  color: black;
+  color: white;
   font-family: custom-font;
   padding: 15px;
 }
@@ -56,34 +56,30 @@ div.container {
 }
 
 .left, .right, .left-two, .right-two {
-  border: 3px pink solid;
+  /* border: 3px pink solid; */
   display:flex;
 }
 
 .left {
   width: 30%;
-  background: yellow;
 }
 
 .right {
   width: 70%;
-  background: red;
 }
 
 .left-two {
   width: 70%;
-  background: red;
 }
 
 .right-two {
   width: 30%;
-  background: yellow;
 }
 
 .bri, .deja, .sophie, .eli, .carter, .jordan, .radtke, .sandw {
-  background:plum;
+  background:rgb(101, 32, 11);
   max-width: 1100px;
-  height: 300px;
+  height: 350px;
   display: flex;
 }
 
@@ -105,6 +101,12 @@ div.container {
   object-fit: cover;
 }
 
+.broider {
+    border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAABD0lEQVR4AeyTMQ7CQAwEgZqO3/FAfkdHD9U0o6ycKCnwXZDQar13Bk+c26XJ5/yjRz+o+Yi+X/fv0vcosvMQhWIiV+XpnuvzEGXyx/NzXfqS79VxibJzKKTw1pRTX6vjEYWU9xAiruNTTj/ySscjmiY2OZ+rcp9Pvj9RdghlUnvqa9X38Wjq05eoJ/OO2ScCqe779v59+vQlygT/pifRo59IX6LhLfxCKL2V5JX6vr1/n359iTIBk6Gu47dq6ue6+/Yn6omS9475XJX7fPLjEWWHIIRCAG9NOf3IKx2PKBNDAk31KufeWh2XaCLg3cSn81vr8xD1LppUlft88vMQhQDkrOR7dT6ie4lV99sQ/QEAAP//ULJwDwAAAAZJREFUAwC7uDBkIsWe7wAAAABJRU5ErkJggg==") 14 /  14px / 0 round;
+    border-width:  14px;
+    border-style:  solid;
+    background-clip: padding-box;
+}
 @font-face {
   font-family: custom-font;
   src: url(../assets/VT323-Regular.ttf);
