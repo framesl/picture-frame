@@ -23,7 +23,7 @@ nav ul{
     padding: 20px;
     display: flex;
     justify-content: space-around;
-    background-color: #eda60c;
+    background-color: rgb(237, 166, 12);
 }
 
 a {
