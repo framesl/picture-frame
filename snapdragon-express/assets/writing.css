@@ -13,7 +13,7 @@ body {
 h1 {
   text-align: center;
   font-size: 70px;
-  font-family: custom-font;
+  font-family: fancy-font;
   color: white;
 }
 
@@ -243,6 +243,11 @@ div.container {
 @font-face {
   font-family: custom-font;
   src: url(../assets/VT323-Regular.ttf);
+}
+
+@font-face {
+  font-family: fancy-font;
+  src: url(../assets/Jacquard24-Regular.ttf);
 }
 
 
