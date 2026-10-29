@@ -16,19 +16,20 @@ h1 {
   font-family: custom-font;
   margin-top: 50px;
   position: relative;
+  color: white;
 }
 
 .container {
   display: flex;
   height:100vh;
-  background-color: brown;
+  background-color: rgb(64, 7, 7);
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .button {
-  background: red;
+  background: rgb(237, 166, 12);
   color: white;
   padding: 10px 20px;
   text-decoration: none;
