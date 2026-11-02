@@ -62,3 +62,31 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    const button = document.querySelector(".radtke-button");
+    const imgStats = document.querySelector(".imgstats-radtke");
+
+    if (button && imgStats) {
+        button.addEventListener("click", function(event) {
+            event.preventDefault();
+            
+            imgStats.classList.toggle("show");
+        });
+    }
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    const button = document.querySelector(".sandw-button");
+    const imgStats = document.querySelector(".imgstats-sandw");
+
+    if (button && imgStats) {
+        button.addEventListener("click", function(event) {
+            event.preventDefault();
+            
+            imgStats.classList.toggle("show");
+        });
+    }
+});
+
+

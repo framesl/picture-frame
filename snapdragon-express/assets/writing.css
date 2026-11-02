@@ -234,6 +234,64 @@ div.container {
   display: block;
 }
 
+.radtke-button {
+  cursor: pointer;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  border: none;
+  background: rgb(244, 244, 244);
+  display: block;
+  overflow: hidden;
+}
+
+.radtke-button img {
+  display: block;
+  width: 100%;
+  height: auto;       
+  object-fit: cover;
+}
+
+.imgstats-radtke {
+  position:relative;
+  height: 400px;
+  width: 700px;
+  display: none;
+}
+
+.imgstats-radtke.show {
+  display: block;
+}
+
+.sandw-button {
+  cursor: pointer;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  border: none;
+  background: #576264;
+  display: block;
+  overflow: hidden;
+}
+
+.sandw-button img {
+  display: block;
+  width: 100%;
+  height: auto;       
+  object-fit: cover;
+}
+
+.imgstats-sandw {
+  position:relative;
+  height: 400px;
+  width: 700px;
+  display: none;
+}
+
+.imgstats-sandw.show {
+  display: block;
+}
+
 .broider {
     border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAABD0lEQVR4AeyTMQ7CQAwEgZqO3/FAfkdHD9U0o6ycKCnwXZDQar13Bk+c26XJ5/yjRz+o+Yi+X/fv0vcosvMQhWIiV+XpnuvzEGXyx/NzXfqS79VxibJzKKTw1pRTX6vjEYWU9xAiruNTTj/ySscjmiY2OZ+rcp9Pvj9RdghlUnvqa9X38Wjq05eoJ/OO2ScCqe779v59+vQlygT/pifRo59IX6LhLfxCKL2V5JX6vr1/n359iTIBk6Gu47dq6ue6+/Yn6omS9475XJX7fPLjEWWHIIRCAG9NOf3IKx2PKBNDAk31KufeWh2XaCLg3cSn81vr8xD1LppUlft88vMQhQDkrOR7dT6ie4lV99sQ/QEAAP//ULJwDwAAAAZJREFUAwC7uDBkIsWe7wAAAABJRU5ErkJggg==") 14 /  14px / 0 round;
     border-width:  14px;
