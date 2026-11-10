@@ -9,8 +9,8 @@ img {
 body {
   background-color: #4a0e28;
   background-image: url(../assets/images/sde-background.jpg);
-  background-size: cover;
-  background-position: center center;
+  background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   min-height: 100%;
@@ -21,7 +21,7 @@ h1 {
   text-align: center;
   font-size: 70px;
   font-family: fancy-font;
-  color: rgb(101, 32, 11);
+  color: #4a0e28;
 }
 
 nav ul{
