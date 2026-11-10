@@ -317,5 +317,62 @@ div.container {
   src: url(../assets/Jacquard24-Regular.ttf);
 }
 
+@media screen and (max-width: 1000px) {
+  h1 {
+    font-size: 50px;
+    color: white;
+  }
+
+  a {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .bri, .deja, .sophie, .eli, .carter, .jordan, .radtke, .sandw {
+  background:rgb(101, 32, 11);
+  max-width: 800px;
+  height: 270px;
+  display: flex;
+  background-clip: padding-box;
+  }
+
+  .imgstats-bri, .imgstats-carter, .imgstats-deja, .imgstats-eli, .imgstats-jordan, .imgstats-radtke, .imgstats-sandw {
+    height: 250px;
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 600px) 
+{
+  h1 {
+    font-size: 30px;
+    color: white;
+  }
+
+  a {
+    font-size: 17px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .bri, .deja, .sophie, .eli, .carter, .jordan, .radtke, .sandw {
+  background:rgb(101, 32, 11);
+  max-width: 500px;
+  height: 170px;
+  display: flex;
+  background-clip: padding-box;
+  }
+
+  .imgstats-bri, .imgstats-carter, .imgstats-deja, .imgstats-eli, .imgstats-jordan, .imgstats-radtke, .imgstats-sandw {
+    height: 150px;
+    width: 300px;
+  }
+}
+
 
 
