@@ -14,22 +14,33 @@ body {
 h1 {
   font-size: 130px;
   font-family: fancy-font;
-  margin-top: 50px;
+  margin-top: 40px;
   position: relative;
-  color: white;
+  color: #4a0e28;
+  /* background: -webkit-linear-gradient(#289ce7, #a6dff0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  /* -webkit-text-stroke: 0.2px black; */
 }
 
 .container {
   display: flex;
   height:100vh;
-  background-color: rgb(64, 7, 7);
+  background-color: #4a0e28;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url(assets/images/sde-traindoor.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100%;
+  height: 100vh;
 }
 
 .button {
-  background: rgb(237, 166, 12);
+  background: #d49628;
   color: white;
   padding: 10px 20px;
   text-decoration: none;
