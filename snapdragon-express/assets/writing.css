@@ -59,6 +59,24 @@ p {
   margin: 25px;
 }
 
+.title {
+  height: 150px;
+  margin: auto;
+  display: block;
+}
+
+.titlewidth {
+  margin: auto;
+  display: block;
+  width: 1400px;
+}
+
+.titleheight {
+  margin: auto;
+  display: block;
+  height: 120px;
+}
+
 div.container {
   max-width: 1100px;
   height: auto;
