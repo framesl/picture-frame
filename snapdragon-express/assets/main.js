@@ -64,6 +64,19 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
+    const button = document.querySelector(".sophie-button");
+    const imgStats = document.querySelector(".imgstats-sophie");
+
+    if (button && imgStats) {
+        button.addEventListener("click", function(event) {
+            event.preventDefault();
+            
+            imgStats.classList.toggle("show");
+        });
+    }
+});
+
+document.addEventListener("DOMContentLoaded", function() {
     const button = document.querySelector(".radtke-button");
     const imgStats = document.querySelector(".imgstats-radtke");
 

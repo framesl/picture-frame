@@ -9,7 +9,7 @@ img {
 body {
   background-color: #4a0e28;
   background-image: url(../assets/images/sde-background.jpg);
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -267,6 +267,35 @@ div.container {
 }
 
 .imgstats-jordan.show {
+  display: block;
+}
+
+.sophie-button {
+  cursor: pointer;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  display: block;
+  overflow: hidden;
+}
+
+.sophie-button img {
+  display: block;
+  width: 100%;
+  height: auto;       
+  object-fit: cover;
+}
+
+.imgstats-sophie {
+  position:relative;
+  height: 400px;
+  width: 700px;
+  display: none;
+}
+
+.imgstats-sophie.show {
   display: block;
 }
 

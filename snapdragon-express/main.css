@@ -17,10 +17,6 @@ h1 {
   margin-top: 40px;
   position: relative;
   color: #4a0e28;
-  /* background: -webkit-linear-gradient(#289ce7, #a6dff0);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
-  /* -webkit-text-stroke: 0.2px black; */
 }
 
 .container {
@@ -31,7 +27,7 @@ h1 {
   justify-content: center;
   align-items: center;
   background-image: url(assets/images/sde-traindoor.jpg);
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
